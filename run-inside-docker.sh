@@ -1,0 +1,1 @@
+docker run -it -v "$PWD":/usr/src/myapp -w /usr/src/myapp python:3.7 /usr/src/myapp/run.sh

@@ -1,0 +1,119 @@
+Game type: map, iv_groupings: 1 with 100 LR loops and 0.02 learning rate:
+    mp_tank, score:0.5897435897435898, best ivs:['assists']
+            model:{'weights': array([0.03556604]), 'bias': -0.14828703545494823}, gamesPlayed:129
+    mp_kgb, score:0.5476190476190477, best ivs:['assists']
+            model:{'weights': array([0.09097302]), 'bias': -0.006689725030947814}, gamesPlayed:139
+    mp_tundra, score:0.5625, best ivs:['deaths']
+            model:{'weights': array([-0.00098356]), 'bias': 0.05185873079107259}, gamesPlayed:53
+    mp_raid_rm, score:0.6046511627906976, best ivs:['duration']
+            model:{'weights': array([2270.]), 'bias': 0.02714285714285715}, gamesPlayed:141
+    mp_moscow, score:0.6190476190476191, best ivs:['objectives']
+            model:{'weights': array([0.00886162]), 'bias': -0.060807815585223336}, gamesPlayed:69
+Average accuracy: 0.5847122838401908
+
+
+Game type: map, iv_groupings: 2 with 100 LR loops and 0.02 learning rate:
+    mp_tank, score:0.7692307692307693, best ivs:['assists', 'deaths']
+            model:{'weights': array([ 0.29699333, -0.07322714]), 'bias': 0.01732132181532163}, gamesPlayed:129
+    mp_kgb, score:0.6666666666666666, best ivs:['kills', 'assists']
+            model:{'weights': array([-0.045212 ,  0.1797642]), 'bias': 0.04613442190697008}, gamesPlayed:139
+    mp_tundra, score:0.75, best ivs:['shotsLanded', 'deaths']
+            model:{'weights': array([ 0.24634367, -0.67815427]), 'bias': 0.03141429645457856}, gamesPlayed:53
+    mp_raid_rm, score:0.7441860465116279, best ivs:['scorePerMinute', 'deaths']
+            model:{'weights': array([ 1.39100932, -3.83933759]), 'bias': -0.0714332974971074}, gamesPlayed:141
+    mp_moscow, score:0.6190476190476191, best ivs:['kills', 'multikills']
+            model:{'weights': array([ 0.00709355, -0.02644181]), 'bias': -0.04583979955328202}, gamesPlayed:69
+Average accuracy: 0.7098262202913366
+
+
+Game type: map, iv_groupings: 3 with 100 LR loops and 0.02 learning rate:
+    mp_tank, score:0.7948717948717948, best ivs:['ekiadRatio', 'assists', 'deaths']
+            model:{'weights': array([ 0.09438889,  0.28996873, -0.07526101]), 'bias': 0.012044752957246524}, gamesPlayed:129
+    mp_kgb, score:0.7142857142857143, best ivs:['kills', 'assists', 'objectives']
+            model:{'weights': array([-0.10996221,  0.11240122,  0.0739602 ]), 'bias': 0.0452531917506855}, gamesPlayed:139
+    mp_tundra, score:0.8125, best ivs:['rankAtEnd', 'assists', 'deaths']
+            model:{'weights': array([ 0.14131409,  0.50183415, -1.02779827]), 'bias': 0.010656483537270322}, gamesPlayed:53
+    mp_raid_rm, score:0.7441860465116279, best ivs:['kills', 'scorePerMinute', 'deaths']
+            model:{'weights': array([-0.96626758,  1.43989065, -3.82567673]), 'bias': -0.06709343462409345}, gamesPlayed:141
+    mp_moscow, score:0.6666666666666666, best ivs:['kills', 'highestMultikill', 'multikills']
+            model:{'weights': array([ 0.00442775,  0.02906275, -0.02948652]), 'bias': -0.046062015887458674}, gamesPlayed:69
+Average accuracy: 0.7465020444671607
+
+
+Game type: mode, iv_groupings: 1 with 100 LR loops and 0.02 learning rate:
+    dom, score:0.7647058823529411, best ivs:['headshots']
+            model:{'weights': array([0.09668889]), 'bias': -0.0027730998029888857}, gamesPlayed:55
+    conf, score:0.7647058823529411, best ivs:['deaths']
+            model:{'weights': array([-0.00634431]), 'bias': 0.0917151374839228}, gamesPlayed:54
+    tdm, score:0.7096774193548387, best ivs:['headshots']
+            model:{'weights': array([0.09006852]), 'bias': -0.0873092748504382}, gamesPlayed:101
+    koth_cdl, score:0.574468085106383, best ivs:['kills']
+            model:{'weights': array([0.00097557]), 'bias': 0.02107565035441746}, gamesPlayed:155
+    control_cdl, score:0.6909090909090909, best ivs:['ekiadRatio']
+            model:{'weights': array([0.15672909]), 'bias': -0.1071004679880832}, gamesPlayed:181
+    sd_cdl, score:0.6136363636363636, best ivs:['deaths']
+            model:{'weights': array([-0.10852677]), 'bias': 0.0653859501520169}, gamesPlayed:145
+Average accuracy: 0.6863504539520932
+
+
+Game type: mode, iv_groupings: 2 with 100 LR loops and 0.02 learning rate:
+    dom, score:0.8235294117647058, best ivs:['headshots', 'highestStreak']
+            model:{'weights': array([0.08763725, 0.00441705]), 'bias': -0.012230083291417976}, gamesPlayed:55
+    conf, score:0.7647058823529411, best ivs:['kills', 'deaths']
+            model:{'weights': array([ 0.11582712, -0.13717877]), 'bias': 0.04762852971004067}, gamesPlayed:54
+    tdm, score:0.7419354838709677, best ivs:['highestMultikill', 'headshots']
+            model:{'weights': array([0.02343514, 0.08188376]), 'bias': -0.09215627959177262}, gamesPlayed:101
+    koth_cdl, score:0.7021276595744681, best ivs:['ekiadRatio', 'multikills']
+            model:{'weights': array([ 0.13635554, -0.08161369]), 'bias': 0.0229399340459461}, gamesPlayed:155
+    control_cdl, score:0.7454545454545455, best ivs:['ekiadRatio', 'highestStreak']
+            model:{'weights': array([ 0.17250628, -0.03001906]), 'bias': -0.09211333011150569}, gamesPlayed:181
+    sd_cdl, score:0.6590909090909091, best ivs:['kills', 'deaths']
+            model:{'weights': array([ 0.12650202, -0.1889741 ]), 'bias': 0.04540433142577441}, gamesPlayed:145
+Average accuracy: 0.7394739820180894
+
+
+Game type: mode, iv_groupings: 3 with 100 LR loops and 0.02 learning rate:
+    dom, score:0.8235294117647058, best ivs:['kills', 'ekiadRatio', 'headshots']
+            model:{'weights': array([-0.00247567,  0.1098501 ,  0.07013223]), 'bias': -0.028998730375922793}, gamesPlayed:55
+    conf, score:0.8235294117647058, best ivs:['kills', 'assists', 'deaths']
+            model:{'weights': array([ 0.1227007 ,  0.10250522, -0.16695697]), 'bias': 0.0484861436735101}, gamesPlayed:54
+    tdm, score:0.7741935483870968, best ivs:['kills', 'ekiadRatio', 'multikills']
+            model:{'weights': array([-0.02262863,  0.20349693,  0.03303695]), 'bias': -0.033640769282378545}, gamesPlayed:101
+    koth_cdl, score:0.723404255319149, best ivs:['scorePerMinute', 'deaths', 'multikills']
+            model:{'weights': array([ 0.25013762, -2.61200945, -0.15946289]), 'bias': -0.024343902134072573}, gamesPlayed:155
+    control_cdl, score:0.8, best ivs:['headshots', 'deaths', 'highestStreak']
+            model:{'weights': array([ 0.17278749, -0.08097637,  0.29983542]), 'bias': 0.10531230791570109}, gamesPlayed:181
+    sd_cdl, score:0.6818181818181818, best ivs:['kills', 'ekiadRatio', 'deaths']
+            model:{'weights': array([ 0.09815528,  0.16528255, -0.18926632]), 'bias': 0.040522575387738326}, gamesPlayed:145
+Average accuracy: 0.7710791348423065
+
+
+Game type: map_mode, iv_groupings: 1 with 100 LR loops and 0.02 learning rate:
+    mp_kgb-control_cdl, score:0.6470588235294118, best ivs:['deaths']
+            model:{'weights': array([-0.02586639]), 'bias': 0.10291713813454074}, gamesPlayed:54
+    mp_tank-control_cdl, score:0.6111111111111112, best ivs:['ekiadRatio']
+            model:{'weights': array([0.07671988]), 'bias': -0.11012394316064415}, gamesPlayed:59
+    mp_raid_rm-control_cdl, score:0.7619047619047619, best ivs:['deaths']
+            model:{'weights': array([-0.01162319]), 'bias': 0.16426274209338232}, gamesPlayed:68
+Average accuracy: 0.6733582321817616
+
+
+Game type: map_mode, iv_groupings: 2 with 100 LR loops and 0.02 learning rate:
+    mp_kgb-control_cdl, score:0.8235294117647058, best ivs:['kills', 'objectives']
+            model:{'weights': array([-0.06004312,  0.03959395]), 'bias': -0.004258622909756339}, gamesPlayed:54
+    mp_tank-control_cdl, score:0.7777777777777778, best ivs:['deaths', 'objectives']
+            model:{'weights': array([-0.05862189,  0.12259874]), 'bias': 0.05497492346608978}, gamesPlayed:59
+    mp_raid_rm-control_cdl, score:0.8095238095238095, best ivs:['kills', 'highestStreak']
+            model:{'weights': array([-0.05591969,  0.30263911]), 'bias': -0.07651454561530455}, gamesPlayed:68
+Average accuracy: 0.8036103330220978
+
+
+Game type: map_mode, iv_groupings: 3 with 100 LR loops and 0.02 learning rate:
+    mp_kgb-control_cdl, score:0.8823529411764706, best ivs:['ekiadRatio', 'assists', 'deaths']
+            model:{'weights': array([ 0.24093668,  0.23541557, -0.08236731]), 'bias': 0.09235879919678411}, gamesPlayed:54
+    mp_tank-control_cdl, score:0.8333333333333334, best ivs:['shotsLanded', 'deaths', 'objectives']
+            model:{'weights': array([ 0.01378554, -0.43821062,  0.51690088]), 'bias': 0.07160923200708985}, gamesPlayed:59
+    mp_raid_rm-control_cdl, score:0.9047619047619048, best ivs:['kills', 'ekiadRatio', 'highestStreak']
+            model:{'weights': array([-0.06660151,  0.25251841,  0.27485852]), 'bias': -0.08418549076804129}, gamesPlayed:68
+Average accuracy: 0.8734827264239029
+Total Time: 00:07:02.64
