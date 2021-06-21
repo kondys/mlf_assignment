@@ -9,7 +9,7 @@ from pebble import ProcessPool
 np.warnings.filterwarnings('ignore', 'overflow') #disabled warnings for the sigmoid function
 
 CPU_PROCESSES = 12 #CPU processes, reduce this if you are running on a lower spec machine
-LOGISTIC_REGRESSION_LOOPS = 1000 #Number of iterations inside the logistic regression. #50 should take about 3 mins
+LOGISTIC_REGRESSION_LOOPS = 50 #Number of iterations inside the logistic regression. #50 should take about 3 mins
 LEARNING_RATE = 0.02 #Learning rate... this seems to be the most efficent based on my testing
 MIN_GAMES_FOR_GROUPING = 40 #Min number of games required for a group. I.e If the 'mp_nuketown6' map has only been played 30 times and will not be considered
 
@@ -48,7 +48,7 @@ class LogisticRegression:
     def predict(self, X):
         linear_model = np.dot(X, self.weights) + self.bias
         prediction = self._sigmoid(linear_model)
-        result = [1 if i > 0.5 else 0 for i in prediction] #if the result of the sigmoid is more than 0.5 it is a win, else game will be a loss
+        result = [1 if i >= 0.5 else 0 for i in prediction] #if the result of the sigmoid is more than or equal to 0.5 it is a win, else game will be a loss
         
         return np.array(result)
 
