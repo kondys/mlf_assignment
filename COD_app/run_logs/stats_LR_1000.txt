@@ -1,0 +1,12 @@
+averageAccuracy: 0.6442687747035574, game_type: no_grouping, iv_group_count:1
+averageAccuracy: 0.6758893280632411, game_type: no_grouping, iv_group_count:2
+averageAccuracy: 0.7272727272727273, game_type: no_grouping, iv_group_count:3
+averageAccuracy: 0.6662024022489138, game_type: map, iv_group_count:1
+averageAccuracy: 0.717896541443053, game_type: map, iv_group_count:2
+averageAccuracy: 0.7766302495953659, game_type: map, iv_group_count:3
+averageAccuracy: 0.7003559862829514, game_type: mode, iv_group_count:1
+averageAccuracy: 0.7659445702533837, game_type: mode, iv_group_count:2
+averageAccuracy: 0.7938351580727131, game_type: mode, iv_group_count:3
+averageAccuracy: 0.7888266417678182, game_type: map_mode, iv_group_count:1
+averageAccuracy: 0.861344537815126, game_type: map_mode, iv_group_count:2
+averageAccuracy: 0.9116090880796763, game_type: map_mode, iv_group_count:3
