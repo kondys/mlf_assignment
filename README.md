@@ -19,7 +19,6 @@ UTS Machine Learning assignment
     or.. run as a docker container `run-inside-docker.sh`
 
 ## Files:
-COD_app/
-    assign.py -> assigment code
-    COD_Games.csv -> assignment data
-    run_logs/* sample output from previous large runs
+ - COD_app/assign.py (assigment code)
+ - COD_app/COD_Games.csv (assignment data)
+ - COD_app/run_logs/*.txt (sample output from previous large runs)
